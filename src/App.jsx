@@ -88,7 +88,7 @@ function App() {
         </button>
 
         <button style={styles.taskBtn} onClick={() =>
-          handleTask("follow", "https://twitter.com/intent/follow?screen_name=YOUR_USERNAME")
+          handleTask("follow", "https://twitter.com/intent/follow?screen_name=memegodsnftart")
         }>
           👤 Follow {tasks.follow && "✅"}
         </button>
