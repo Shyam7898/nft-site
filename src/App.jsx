@@ -76,13 +76,13 @@ function App() {
         <h3>Complete Tasks</h3>
 
         <button style={styles.taskBtn} onClick={() =>
-          handleTask("like", "https://twitter.com/intent/like?tweet_id=2034341599602425862")
+          handleTask("like", "https://twitter.com/intent/like?tweet_id=2034499011613429955")
         }>
           👍 Like Tweet {tasks.like && "✅"}
         </button>
 
         <button style={styles.taskBtn} onClick={() =>
-          handleTask("retweet", "https://twitter.com/intent/retweet?tweet_id=2034341599602425862")
+          handleTask("retweet", "https://twitter.com/intent/retweet?tweet_id=2034499011613429955")
         }>
           🔁 Retweet {tasks.retweet && "✅"}
         </button>
